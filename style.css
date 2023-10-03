@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* FIRST SECTION CSS */
+.main-section{
+    width: 100%;
+    padding: 150px 0px 180px 0px;
+    background-image: url(img/row-1-header.jpg);
+    background-repeat: no-repeat;
+    height: 720.47px;
+}
+.col-md-3{
+    padding: 0;
+}
+.heading-column{
+    padding: 10px;
+}
+h2{
+    color: #384259;
+    font-family: "Raleway";
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.3em;
+    margin: 0px 0px 30px 0px;
+}
+p{
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+button{
+    border-radius: 50px 50px 50px 50px;
+    border: 1px solid #4c2abe;
+}
+.btn:hover{
+    background-color: #e63855;
+    color: #ffffff;
+}
+.btn{
+    width: 215.78px;
+    height: 56px;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: bold;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: #f73859;
+    border-radius: 50px 50px 50px 50px;
+    padding: 10px 40px 17px 40px;
+}
+
+
+/* SECOND SECTION CSS */
+.boardband-section{
+    padding: 80px 0px 80px 0px;
+}
+.boardband-img{
+    padding: 10px;
+    margin: 0px 0px 30px 0px
+}
+.boardband-text{
+    padding: 10px;
+}
+.boardband-h2{
+    margin: 0px 0px 30px 0px
+}
+.boardband-list{
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.boardband-ul i{
+    color: #e63855;
+    transition: color 0.3s;
+    font-weight: 400;
+    width: 1.25em;
+    font-size: var(--e-icon-list-icon-size);
+    padding-right: 5px;
+}
+.boardband-ul{
+    text-align: center;
+    list-style-type: none;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 900;
+}
+.boardband-btn{
+    width: 178.64px;
+    height: 54px;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: bold;
+    color: #f73859;
+    border-color: #f73859;
+    background-color: rgba(247,56,89,0);
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-radius: 50px 50px 50px 50px;
+    padding: 10px 40px 17px 40px;
+}
+
+/* THIRD SECTION CSS */
+.team{
+    background-color: #f7f9fb;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.team-flex{
+    display: flex;
+    justify-content: center;
+}
+.team-btn{
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: bold;
+    fill: #c7c7c7;
+    color: #c7c7c7;
+    background-color: rgba(247,56,89,0);
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #c7c7c7;
+    border-radius: 50px 50px 50px 50px;
+    padding: 15px 50px 15px 50px;
+    margin: 70px 0px 0px 0px;
+}
+
+/* FOURTH SECTION CSS */
+.fourth-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.fourth-section h2{
+    margin-bottom: 60px;
+}
+.fourth-section p{
+    margin: 0px 0px 40px 0px;
+}
+.fourth-section h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.6em;
+    font-family: "Raleway";
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: #25365d;
+}
+
+/* FIFTH SECTION CSS */
+.fifth-section h2{
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.3em;
+}
+.fifth-section{
+    background-color: #f73859;
+    color: white;
+    text-align: center;
+    padding: 80px 0px 80px 0px;
+}
+.fifthbox{
+    
+    width: 100%;
+    height: 355.59px;
+    margin: 0px 0px 0px 0px;
+    padding: 30px 30px 30px 30px;
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.29);
+}
+
+.fifthbox h2 span{
+    align-items: flex-start;
+    color: #384259;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: normal;
+}
+.fifthbox h2{
+    color: #384259;
+    font-family: "Raleway";
+    font-size: 70px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-weight: 800;
+    padding: 30px 0;
+    margin-bottom: 0;
+}
+.fifthbox h3{
+    color: #f73859;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: bold;
+}
+.fifthbox span{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6em;
+    color: #384259;
+}
+
+.fifthbox button{
+    color: #f73859;
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0);
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #f73859;
+    border-radius: 50px 50px 50px 50px;
+    padding: 13px 40px 13px 40px;
+}
+.fifthsec-btn{
+    padding: 30px 0;
+}
+
+
+/* LAST SECTION CSS */
+.last-section-img{
+    padding-bottom: 17px;
+}
+.bottom-list{
+    font-size: 26px;
+    line-height: 1.6em;
+    color: #384259;
+    font-family: "Raleway";
+    font-weight: bold;
+    list-style-type: none;
+}
+.last-section{
+    width: 100%;
+    padding: 150px 0px 150px 0px;
+    background-image: url(img/image-4.png);
+    background-repeat: no-repeat;
+    height: auto;
+}
+
